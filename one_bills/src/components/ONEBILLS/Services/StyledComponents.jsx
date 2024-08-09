@@ -116,10 +116,7 @@ export const Table = styled.table`
 export const TrTag = styled.tr`
     margin: 0rem 1rem 0rem 1rem !important;
     border-radius: 1rem !important;
-    /* border-bottom: 2px solid #ccc; */
     position: relative;
-    /* display: flex; */
-    align-items: center;
 
     &:hover{
         background: #ced4da;
@@ -143,7 +140,8 @@ export const TdTag = styled.td`
     padding: 0rem 1rem 0rem 1rem;
     color: #2B3674;
     font-size: 1rem;
-    font-weight: 390;
+    font-weight: 400;
+    font-family: system-ui;
 
 `
 

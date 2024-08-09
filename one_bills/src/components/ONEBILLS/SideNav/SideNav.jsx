@@ -15,9 +15,9 @@ const SideNav = () => {
     const TabOptions = [
         { name: 'Dashboard', link: '/Dashboard', icon: <IoMdHome size={20} /> },
         { name: 'Clients', link: '/Clients', icon: <FaUser /> },
-        { name: 'Products/Services', link: '/', icon: <AiFillProduct size={19} /> },
-        { name: 'Invoices', link: '/', icon: <PiInvoiceLight size={20} /> },
-        { name: 'Payments', link: '/', icon: <IoWallet size={20} /> },
+        { name: 'Products/Services', link: '/Services', icon: <AiFillProduct size={19} /> },
+        { name: 'Invoices', link: '/Invoices', icon: <PiInvoiceLight size={20} /> },
+        { name: 'Payments', link: '/Payments', icon: <IoWallet size={20} /> },
         { name: 'Settings', link: '/', icon: <IoIosSettings size={22} /> },
     ]
 

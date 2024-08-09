@@ -287,7 +287,7 @@ const Data = [
 const Columns = Object.keys(Data[0])
 console.log(Columns)
 
-const Clients = () => {
+const Invoices = () => {
     return (
         <MainContainer>
             <SideNav />
@@ -307,7 +307,7 @@ const Clients = () => {
                         </SearchDiv>
 
                         <CreateNewBtn type='button'>
-                            Add Client
+                            Create Invoice
                             <Icon> <TbCircleDashedPlus /> </Icon>
                         </CreateNewBtn>
 
@@ -365,4 +365,4 @@ const Clients = () => {
     )
 }
 
-export default Clients
+export default Invoices
